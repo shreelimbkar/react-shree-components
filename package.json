@@ -7,23 +7,14 @@
     "dist"
   ],
   "dependencies": {
-    "@craco/craco": "^5.7.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "axios": "^0.20.0",
-    "cors": "^2.8.5",
-    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "styled-components": "^5.2.1",
-    "styled-system": "^5.1.5"
+    "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "craco start",
-    "test": "craco test",
-    "eject": "craco eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "build": "rimraf dist & cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
   },
   "eslintConfig": {
@@ -53,8 +44,12 @@
   ],
   "devDependencies": {
     "@babel/cli": "^7.12.10",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
     "babel-preset-react-app": "^10.0.0",
     "cross-env": "^7.0.3",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "styled-components": "^5.2.1"
   }
 }

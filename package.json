@@ -15,7 +15,6 @@
     "cors": "^2.8.5",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
-    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "styled-components": "^5.2.1",
